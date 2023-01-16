@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.main-header {
+    background-color: #2e2e22;
+    padding: 30px;
+
+}
+
+.main-header .logo {
+    display: inline-block;
+}
+
+.main-header .logo a {
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: bold;
+
+}
+
+.main-header .nav-section {
+    width: calc(100% - 60px);
+    text-align: right;
+    display: inline-block
+}
+
+.main-header .nav-section .nav-links {
+
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize
+}
+
+.nav-link {
+    display: inline-block;
+    margin: 0 22px;
+
+}
+
+.nav-link a {
+    text-decoration: none;
+    color: white;
+    padding: 4px 0
+}
+
+.nav-link a:hover,
+.nav-link a:active {
+    color: red;
+    border-bottom: 2px solid white
+}
+
+.nav-link__cta a {
+    background: red;
+    color: white;
+    text-align: center;
+    padding: 7px 18px;
+    border-radius: 5px
+}
+
+.nav-link__cta a:hover {
+    background: white;
+    color: red;
+    font: bolder;
+}
+
+
+#firstSection {
+    color: white;
+    background: url("freedom.jpg");
+    padding: 20px;
+    height: 400px;
+    width: 100%
+}
+
+#secondSection {
+    color: white;
+    background-color: green;
+    padding: 20px;
+
+
+}
